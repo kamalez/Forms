@@ -1,0 +1,100 @@
+.main {
+	width:480px;
+	margin:7% auto 0 auto;
+	background-color:transparent;
+	opacity:0.8;
+	border-radius: 3%;
+}
+
+body {
+	background:transparent url(../images/wall.jpg) no-repeat fixed;
+	background-size:cover;
+	font-family:Arial;
+	font-weight:bold;
+	font-size: 20px;
+	
+}
+
+.main > * {
+	padding:3%;
+	border-radius: 3%;
+	background-color: silver;
+	position: relative;
+}
+
+.inputs {
+	border:2px solid black;
+	margin:10px auto 10px auto;
+	width:100%;
+	padding:0.5%;
+	background-color:transparent;
+	font-size:18px;
+	border-radius: 15px;
+	
+}
+
+.inputs:focus {
+	background-color:powderblue;
+    outline:0;
+}
+select
+{
+	border:2px solid black;
+	margin:10px auto 10px auto;
+	width:100%;
+	padding:0.5%;
+	background-color:transparent;
+	font-size:18px;
+	border-radius: 15px;
+	outline:0;
+}
+
+.one-line{
+    width:49%;
+    float:left;
+}
+
+.social{
+	position:fixed;
+	width:5%;
+	height:32%;
+	top:30%;
+	right:0;
+	background-color:transparent;
+}
+
+.imgs:hover{
+     cursor:pointer;
+}
+.Three {
+	width:32%;
+	float:left;
+}
+
+.checks {
+	width:30%;
+	margin:7% auto 0 auto;
+	border:5px solid powderblue;
+	border-radius:20px;
+	background-color:silver;
+}
+
+.submit{
+	background-color:green;
+	margin-left:46%;
+	margin-top:7%;
+	margin-bottom:7%;
+	border-radius:20px;
+	width:100px;
+	height:40px;
+	font-size:20px;
+}
+
+.submit:active{
+	background-color:blue;
+    outline:0;
+}
+
+.submit:hover{
+	outline:0;
+}
